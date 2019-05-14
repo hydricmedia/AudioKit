@@ -76,6 +76,7 @@
 		34F5A350205EC31000290001 /* AKModulatedDelay_Typedefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F5A34A205EC30F00290001 /* AKModulatedDelay_Typedefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34F5A351205EC31000290001 /* ModulatedDelay_Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F5A34B205EC30F00290001 /* ModulatedDelay_Defines.h */; };
 		34F5A354205EC31000290001 /* AdjustableDelayLine.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 34F5A34E205EC30F00290001 /* AdjustableDelayLine.hpp */; };
+		447ECBA621E30F9F00E09FB2 /* oscmorph2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 447ECBA521E30F9F00E09FB2 /* oscmorph2d.c */; };
 		482DA1611DD91607009742BD /* AKClarinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482DA15E1DD91607009742BD /* AKClarinet.swift */; };
 		531CD8F3207BA1B0006C15E0 /* CDelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 531CD8F1207BA1B0006C15E0 /* CDelay.cpp */; };
 		531CD8F4207BA1B0006C15E0 /* CDelay.h in Headers */ = {isa = PBXBuildFile; fileRef = 531CD8F2207BA1B0006C15E0 /* CDelay.h */; };
@@ -1229,6 +1230,7 @@
 		34F5A34A205EC30F00290001 /* AKModulatedDelay_Typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKModulatedDelay_Typedefs.h; sourceTree = "<group>"; };
 		34F5A34B205EC30F00290001 /* ModulatedDelay_Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModulatedDelay_Defines.h; sourceTree = "<group>"; };
 		34F5A34E205EC30F00290001 /* AdjustableDelayLine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AdjustableDelayLine.hpp; sourceTree = "<group>"; };
+		447ECBA521E30F9F00E09FB2 /* oscmorph2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oscmorph2d.c; sourceTree = "<group>"; };
 		482DA15E1DD91607009742BD /* AKClarinet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AKClarinet.swift; path = Clarinet/AKClarinet.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		531CD8F1207BA1B0006C15E0 /* CDelay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CDelay.cpp; sourceTree = "<group>"; };
 		531CD8F2207BA1B0006C15E0 /* CDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDelay.h; sourceTree = "<group>"; };
@@ -4445,6 +4447,7 @@
 				C49B1655204A0ACF009C7C8E /* nsmp.c */,
 				C49B15EF204A0ACF009C7C8E /* osc.c */,
 				C49B160C204A0ACF009C7C8E /* oscmorph.c */,
+				447ECBA521E30F9F00E09FB2 /* oscmorph2d.c */,
 				C49B1622204A0ACF009C7C8E /* padsynth.c */,
 				C49B1604204A0ACF009C7C8E /* pan2.c */,
 				C49B1620204A0ACF009C7C8E /* panst.c */,
@@ -6247,6 +6250,7 @@
 				34DB48A92030BDF200ECFF1F /* AKFlanger.swift in Sources */,
 				C45669E71D448D7E00D26565 /* subtract.swift in Sources */,
 				EADFC4382151088D003E5191 /* AKSynth.cpp in Sources */,
+				447ECBA621E30F9F00E09FB2 /* oscmorph2d.c in Sources */,
 				C47047BE1E78FA2D00D9906F /* AKRhodesPiano.swift in Sources */,
 				C49B218A204A2AE7009C7C8E /* AKAppleSampler+getAUPresetXML.swift in Sources */,
 				C49B1863204A0AD0009C7C8E /* zitarev.c in Sources */,
